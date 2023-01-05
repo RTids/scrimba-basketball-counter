@@ -1,0 +1,71 @@
+* {
+    /* border: 1px solid */
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: #1B244A;
+}
+
+.home, .guest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    width: 575px;
+    height: 385px;
+}
+
+button {
+    margin: .5rem;
+    height: 45px;
+    width: 45px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.clear {
+    text-align: center;
+    align-self: center;
+    font-size: 10px;
+}
+
+.clear button {
+    color: greenyellow;
+    border: 3px solid;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 40px;
+    color: #EEEEEE;
+
+}
+
+h1 {
+    display: flex;
+    width: 155px;
+    height: 120px;
+    align-self: center;
+    margin: .5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    color: #EEEEEE;
+    background-color: black;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL';
+    
+}
